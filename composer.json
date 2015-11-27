@@ -36,7 +36,13 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.3.1"
+    "johnpbloch/wordpress": "4.3.1",
+    "roots/soil": "3.5.0",
+    "wpackagist-plugin/contact-form-7": "4.3",        
+    "wpackagist-plugin/custom-post-type-ui": "1.1.2",
+    "wpackagist-plugin/admin-post-navigation": "1.9.2",    
+    "wpackagist-plugin/advanced-custom-fields": "4.4.3",
+    "wpackagist-plugin/photo-gallery": "1.2.70"
   },
   "extra": {
     "installer-paths": {
