@@ -151,7 +151,7 @@ function matchH(){
 
             },
             unmatch : function() {
-              $('.artisti-wrapper').off('hover');
+              $('.artisti-wrapper').off('mouseenter mouseleave');
               if(mySwiper.destroy)mySwiper.destroy(true,true);
               $('.lista-artisti').removeClass('swiper-wrapper');
               $('.lista-artisti>div').removeClass('swiper-slide');
@@ -174,11 +174,13 @@ function matchH(){
                 }
 
               );
+        /*
         $('.lista-artisti').magnificPopup({
             delegate: '.ajax-popup-link', // child items selector, by clicking on it popup will open
             type: 'ajax'
             // other options
         });
+*/
          $('.servizio-more').magnificPopup({
 
             type: 'ajax'
