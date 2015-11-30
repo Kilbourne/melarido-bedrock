@@ -43,7 +43,9 @@
     "wpackagist-plugin/custom-post-type-ui": "1.1.2",
     "wpackagist-plugin/admin-post-navigation": "1.9.2",    
     "wpackagist-plugin/advanced-custom-fields": "4.4.3",
+    "wpackagist-plugin/post-types-order": "1.8.5",
     "wpackagist-plugin/photo-gallery": "1.2.70",
+    "wpackagist-plugin/google-sitemap-generator": "4.0.8",
     "wpackagist-plugin/wp-performance-score-booster": "1.4"
   },
   "extra": {
