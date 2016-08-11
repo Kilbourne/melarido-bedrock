@@ -105,6 +105,7 @@ function matchH(){
       var h = (maxHeight - $(el).height())/2;
       var servizio = $(el).closest('.servizio');
       var desc=servizio.find('.text-container');
+      if(index===1)h=0;
       desc.css('marginTop',h);
       desc.css('marginBottom',h);
     });
