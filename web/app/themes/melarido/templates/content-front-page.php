@@ -6,9 +6,10 @@
   js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5&appId=1555133888082231";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<h1 style="text-indent: -9999px;height:0px;margin:0;">Melarido</h1>
 <section id="chi-siamo" class="chi-siamo striscia striscia3">
   <div class="chisiamo" >
-      <img src="<?php echo get_stylesheet_directory_uri().'/dist/images/chi-siamo.jpg'; ?>" alt="" class="img-chi">
+      <img src="<?php echo get_stylesheet_directory_uri().'/dist/images/chi-siamo.jpg'; ?>" alt="Luca Sepe,Ugo Cusati,Marinella Ilari" class="img-chi">
 
   </div><p class="chi-siamo-text">
         Nel 2009  <span class="green">Luca Sepe</span>, <span class="green">Ugo Cusati</span> e <span class="green">Marinella Ilari</span>, iniziano la loro collaborazione in occasione di alcuni spettacoli in cui i tre svolgevano mansioni artistiche e organizzative. Era solo l'inizio di una proficua collaborazione che, dopo qualche anno, li porterà a formare una società vera e propria... la MELARIDO!
@@ -35,16 +36,16 @@
     <h3>ALLESTIMENTI EVENTI
     <span class="text-moved" >E SERVICE AUDIO E LUCI</span></h3>
     <img src="<?php echo get_stylesheet_directory_uri().'/dist/images/foto-allestimenti.png';?>" alt="esempi allestimenti">
-    <span class="text-container">
+    <div class="text-container">
     <p class="servizio-desc">Disponiamo di impianti audio professionali di vari marchi, potenza e tipologia. Con il nostro supporto, la nostra consulenza, sarà a possibile far fronte ad ogni tipo di esigenza di spazio e luogo.
     </p>
 
 
   <a href="<?php  $page = get_page_by_title( 'Service' ); echo get_page_link ( $page -> ID); ?>" title="" class="servizio-more" >Leggi Tutto.</a>
-  </span>
+  </div>
   </div><div class="servizio adulti " >
     <h3>ANIMAZIONE ADULTI</h3>
-    <div>
+    <div class="listaadulti-cont">
     <ul class="lista-adulti">
     <li> speaker</li>
     <li> artisti di strada</li>
@@ -61,18 +62,18 @@
     </ul>
     <img src="<?php echo get_stylesheet_directory_uri().'/dist/images/adulti.png';?>" alt="Esempi Adulti">
     </div>
-    <span class="text-container">
+    <div class="text-container">
     <p class="servizio-desc" >Disponiamo di carrettini professionali per soddisfare qualsiasi tipologia di richiesta ed esigenza del cliente privato e non, ideali per stupire e deliziare adulti e bambini.
     </p>
     <a href="<?php  $page = get_page_by_title( 'Animazione Adulti' ); echo get_page_link ( $page -> ID); ?>" title="" class="servizio-more" >Leggi Tutto.</a>
-    </span>
+    </div>
   </div><div class="servizio bambini " >
         <h3>FESTE PER BAMBINI &
     <span>ANIMAZIONE</span></h3>
-     <span class="text-container">
+     <div class="text-container">
        <p class="servizio-desc" >Disponiamo di giochi gonfiabili di piccole e grandi dimensioni, adatti a ludoteche, spazi interni ed esterni, piazze ed eventi pubblici e privati.</p>
     <a href="<?php  $page = get_page_by_title( 'Animazione Adulti' ); echo get_page_link ( $page -> ID); ?>" title="" class="servizio-more" >Leggi Tutto.</a>
-    </span>
+    </div>
     <img src="<?php echo get_stylesheet_directory_uri().'/dist/images/bambini.png';?>" alt="esempi bambini">
 
   </div>

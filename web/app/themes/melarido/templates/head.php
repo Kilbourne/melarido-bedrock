@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Melarido, di Luca Sepe, Ugo Cusati e Marinella Ilari, è un agenzia di eventi - feste per adulti e bambini - con il supporto di KISS KISS NAPOLI.">
   <meta name="google-site-verification" content="23-7NLNuLpDmZRGicBoqc-H_goKW43NaCdGmoLNzWfQ" />
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri().'/favicon/'.'apple-icon-57x57.png'?>">
 <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_stylesheet_directory_uri().'/favicon/'.'apple-icon-60x60.png'?>">
