@@ -355,6 +355,11 @@
       margin:1rem 0 !important;
     }
 }
+.servizio.adulti .text-container{
+  margin:0 !important;
+  position:absolute;
+  bottom:20px;
+}
 .servizio-desc {
     margin-top: 0.5rem;
     /* !!!!!!!!!!!!! */
@@ -605,9 +610,7 @@ max-width: 50%;
         }
     }
 }
-.single-event .evento{
-  width :auto !important;
-}
+
 .contatti {
     padding: 0 2% 2%;
     text-align: center;
